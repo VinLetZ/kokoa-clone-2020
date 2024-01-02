@@ -17,14 +17,17 @@
                 padding: 5px;
                 border-radius: 10px;
             }
-            div p span {
-                color: white;
+            input:optional {
+                border: 1px solid wheat;
             }
-            div > span {
-                text-decoration: overline;
+            input:required {
+                border: 1px solid tomato;
             }
-            p + span {
-                text-decoration: underline;
+            input[type="password"] {
+                background-color: thistle;
+            }
+            input[placeholder~="name"] {
+                background-color: burlywood;
             }
             
         </style>
@@ -32,11 +35,11 @@
 
     <body>
         <div>
-            <span>hello</span>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed a pariatur velit eum sint illum reiciendis, blanditiis nostrum molestiae. Beatae ab magni repellendus quae repudiandae dolorem maxime? Perferendis, commodi eveniet. <span>inside</span>
-            </p>
-            <span>hello</span>
+            <form>
+                <input type="text" placeholder="First name" />
+                <input type="text" placeholder="Last name" />
+                <input type="password" required placeholder="password" />
+            </form>
         </div>
     </body>
 </html>
