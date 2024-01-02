@@ -11,31 +11,32 @@
                 height: 1000vh;
                 margin: 50px;
             }
-            div {
-                width: 150px;
-                height: 150px;
-                background-color: wheat;
-                position: relative;
-            }
             span {
-                background-color: tomato;
+                background-color: yellowgreen;
+                margin: 0px 10px;
+                padding: 5px;
+                border-radius: 10px;
             }
-            span:nth-child(2n + 1) {
-                background-color: teal;
+            div p span {
+                color: white;
             }
+            div > span {
+                text-decoration: overline;
+            }
+            p + span {
+                text-decoration: underline;
+            }
+            
         </style>
     </head>
 
     <body>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
+        <div>
+            <span>hello</span>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed a pariatur velit eum sint illum reiciendis, blanditiis nostrum molestiae. Beatae ab magni repellendus quae repudiandae dolorem maxime? Perferendis, commodi eveniet. <span>inside</span>
+            </p>
+            <span>hello</span>
+        </div>
     </body>
 </html>
