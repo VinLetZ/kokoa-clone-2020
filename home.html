@@ -7,28 +7,25 @@
 
         <link href="styles.css" rel="stylesheet" />
         <style>
-            body {
-                height: 1000vh;
-                margin: 50px;
-            }
-            span {
-                background-color: yellowgreen;
-                margin: 0px 10px;
-                padding: 5px;
-                border-radius: 10px;
-            }
-            form:hover input:focus {
+            a {
+                color: wheat;
                 background-color: tomato;
+                text-decoration: none;
+                padding: 3px 5px;
+                border-radius: 5px;
+                font-size: 55px;
+                /* transition: background-color 10s ease-in-out, color 5s ease-in-out; */
+                transition: all 2s ease-in-out;
+            }
+            a:hover {
+                border-radius: 20px;
+                color: tomato;
+                background-color: wheat;
             }
         </style>
     </head>
 
     <body>
-        <div>
-            <form>
-                <input type="text" />
-                <input type="text" />
-            </form>
-        </div>
+        <a href="#">Go Home</a>
     </body>
 </html>
