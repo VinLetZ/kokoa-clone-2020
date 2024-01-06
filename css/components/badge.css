@@ -1,0 +1,22 @@
+.badge {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    color: white;
+    font-weight: 600;
+}
+
+.badge-comment {
+    left: 15px;
+    bottom: 15px;
+}
+
+.badge-ellipsis {
+    right: -5px;
+    width: 6px;
+    height: 6px;
+}

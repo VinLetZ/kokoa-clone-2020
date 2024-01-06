@@ -6,7 +6,6 @@
 .user-component__column:first-child {
     display: flex;
     align-items: center;
-    padding: var(--horizontal-space);
 }
 
 .user-component__avatar {
@@ -33,7 +32,10 @@
 }
 
 .user-component__column {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .user-component__avatar--sm {
@@ -44,4 +46,9 @@
 
 .user-component__title--not-bold {
     font-weight: 400;
+}
+
+.user-component__time {
+    margin-top: 10px;
+    display: block;
 }
