@@ -13,6 +13,34 @@
     justify-content: space-between;
 }
 
-.nav_link {
+.nav__link {
+    position: relative;
     color: #2e363e;
+}
+
+.nav__notification-comment {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav__notification-ellipsis {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
 }
