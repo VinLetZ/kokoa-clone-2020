@@ -52,3 +52,7 @@
     margin-top: 10px;
     display: block;
 }
+
+.user-component__text i {
+    color: tomato;
+}
