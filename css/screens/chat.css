@@ -121,6 +121,7 @@
     width: 100%;
     border: var(--main-border);
     border-radius: 23px;
+    padding-left: 14px;
 }
 
 .reply__column:last-child > i,
